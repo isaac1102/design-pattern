@@ -6,14 +6,14 @@ package study.designpattern.adapter;
  * 아이폰 이어폰을 사용할 수 있도록 어댑터가 필요한 상황.
  */
 public class AndroidPhone {
-	public static void main(String[] args) {
-		AndroidPhone androidphone = new AndroidPhone();
-		IphoneEarphoneImpl ie = new IphoneEarphoneImpl();
-		AdapterEarphone earphone = new AdapterEarphone(ie);
-		androidphone.listening(earphone);
-	}
-	
-	public void listening(AdapterEarphone earphone) {
-	  earphone.listen();
-	}
+  public static void main(String[] args) {
+    AndroidPhone androidphone = new AndroidPhone();
+    IphoneEarphoneImpl ie = new IphoneEarphoneImpl();
+    AdapterEarphone earphone = new AdapterEarphone(ie);
+    androidphone.listening(earphone);
+  }
+  
+  public void listening(AdapterEarphone earphone) {
+    earphone.listen();
+  }
 }

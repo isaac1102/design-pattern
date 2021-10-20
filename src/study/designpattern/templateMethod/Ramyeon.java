@@ -1,4 +1,4 @@
-package study.designpattern.templateMethod;
+package study.designpattern.templatemethod;
 
 /**
  * 로직을 단계별로 나눠야 할 경우 사용한다.  

@@ -1,4 +1,4 @@
-package study.designpattern.templateMethod;
+package study.designpattern.templatemethod;
 
 public class KimchiRamyeon extends Ramyeon{
   @Override
